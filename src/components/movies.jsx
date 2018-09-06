@@ -9,6 +9,8 @@ import { getGenres } from "../services/fakeGenreService";
 import { paginate } from "../utils/paginate";
 import _ from "lodash";
 
+/* This is the git branch Calling Backend */
+
 class Movies extends Component {
   state = {
     movies: [],
